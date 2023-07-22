@@ -11,7 +11,7 @@ csv_orders = os.path.join(script_dir, 'north_data', 'orders_data.csv')
 # Подключаемся к базе данных
 conn = psycopg2.connect(
     host="localhost",
-    database="homework",
+    database="north",
     user="postgres",
     password=1234
 )
