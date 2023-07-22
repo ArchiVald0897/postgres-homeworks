@@ -16,6 +16,9 @@ conn = psycopg2.connect(
     password=1234
 )
 
+# Создание курсора
+cur = conn.cursor()
+
 # Заполняем таблицу employees
 try:
     with conn:
